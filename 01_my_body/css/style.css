@@ -1,0 +1,13 @@
+/* Define CSS styles for the container */
+#column-container {
+    display: flex;
+    flex-wrap: wrap; /* Wrap to the next row if necessary */
+}
+
+/* Define CSS styles for each column */
+.column {
+    flex: 1; /* Distribute space evenly among columns */
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
